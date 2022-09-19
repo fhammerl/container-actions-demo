@@ -1,9 +1,8 @@
-name: CI
+name: Local and registry image
 on:
   workflow_dispatch:
-
 jobs:
-  build:
+  local-and-remote:
     runs-on: ubuntu-latest # this would be self-hosted in a k8s (ARC) scenario
     steps:
       - uses: fhammerl/container-actions-demo/docker-built-from-file@main
