@@ -6,6 +6,5 @@ jobs:
   build:
     runs-on: ubuntu-latest # this would be self-hosted in a k8s (ARC) scenario
     steps:
-      - uses: actions/checkout@v3
       - uses: fhammerl/container-actions-demo/docker-built-from-file@main
       - uses: fhammerl/container-actions-demo/docker-pulled-from-registry@main
