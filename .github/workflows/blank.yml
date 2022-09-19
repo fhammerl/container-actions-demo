@@ -1,0 +1,10 @@
+name: CI
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: fhammerl/docker-built-from-file@main
+      - uses: fhammerl/docker-pulled-from-registry@main
