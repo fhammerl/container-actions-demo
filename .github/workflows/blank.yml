@@ -4,7 +4,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # this would be self-hosted in a k8s (ARC) scenario
     steps:
       - uses: fhammerl/docker-built-from-file@main
       - uses: fhammerl/docker-pulled-from-registry@main
