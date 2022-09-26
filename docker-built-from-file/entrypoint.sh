@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo ccant-execuiteetete
+echo Totally-ran-this-in-k8s
