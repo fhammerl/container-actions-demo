@@ -1,5 +1,5 @@
 name: 'Hello World'
-description: 'Greet someone and record the time'
+description: 'Echo docker'
 runs:
   using: 'docker'
   image: 'Dockerfile' # The computer running the self-hosted runner will build this Dockerfile - this process requires docker (or something capable of building dockerfiles)
