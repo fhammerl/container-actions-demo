@@ -3,3 +3,4 @@ description: 'Greet someone and record the time'
 runs:
   using: 'docker'
   image: 'docker://alpine:3.10' # pulls ubuntu from 'https://hub.docker.com/_/ubuntu', no need to build
+  entrypoint: 'echo foo'
